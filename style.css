@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background: #f6f1ea;
+    color: #4a3f35;
+    text-align: center;
+}
+
+/* Imágenes */
+.imagen img {
+    width: 100%;
+    display: block;
+}
+
+/* Ubicaciones */
+.ubicaciones {
+    padding: 30px 20px;
+}
+
+.ubicaciones h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Botones */
+.boton {
+    display: block;
+    max-width: 420px;
+    margin: 12px auto;
+    padding: 14px 20px;
+    background: #c2a46d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.boton:hover {
+    opacity: 0.9;
+}
+
+/* WhatsApp */
+.whatsapp {
+    background: #25D366;
+}
+
+/* Confirmar */
+.confirmar {
+    padding: 30px 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #7a6a5c;
+}
